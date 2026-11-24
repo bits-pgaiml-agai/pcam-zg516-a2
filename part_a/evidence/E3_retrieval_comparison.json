@@ -1,0 +1,8 @@
+{
+  "text_only_recall_at_5_all": 0.8,
+  "multimodal_recall_at_5_all": 0.95,
+  "text_only_recall_at_5_table_image": 0.8,
+  "multimodal_recall_at_5_table_image": 0.6,
+  "n_all": 20,
+  "n_table_image": 5
+}

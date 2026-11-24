@@ -1,0 +1,23 @@
+[
+  {
+    "id": "G03",
+    "question_modality": "text",
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "cause": "retrieval_miss",
+    "proposed_fix": "Top-k missed gold page; raise multimodal weight / metadata filters."
+  },
+  {
+    "id": "G04",
+    "question_modality": "table",
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "cause": "answer_span_miss",
+    "proposed_fix": "Retrieved right doc but span selection weak; tighten chunking."
+  },
+  {
+    "id": "G06",
+    "question_modality": "text",
+    "answer": "\u007f Blind receiving is blocked when ASN lines exceed 200 without dock appointment. Source: WES-ASN-002.pdf p.1.",
+    "cause": "guardrail_false_positive",
+    "proposed_fix": "Output guardrail too strict; allow citation-only answers."
+  }
+]

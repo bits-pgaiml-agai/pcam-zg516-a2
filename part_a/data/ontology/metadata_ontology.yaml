@@ -1,0 +1,49 @@
+ontology_id: wes_ops_v1
+domain: warehouse_execution
+version: "1.0.0"
+description: >
+  Metadata ontology for the synthetic WES operations corpus.
+  Prompts and retrieval filters consume these fields via placeholders.
+
+fields:
+  document_type:
+    type: enum
+    values: [sop, guide, playbook, reference, diagram_sheet, checklist]
+  topic:
+    type: enum
+    values:
+      - put_wall
+      - pick_path
+      - asn_receiving
+      - wave_planning
+      - inventory
+      - exceptions
+      - packing
+      - shipping
+      - safety
+      - system_overview
+  modality:
+    type: enum
+    values: [text, table, image, mixed]
+  source:
+    type: string
+  page:
+    type: integer
+    min: 1
+  section:
+    type: string
+  date:
+    type: string
+    format: YYYY-MM-DD
+  sensitivity:
+    type: enum
+    values: [public_synthetic, internal_masked]
+    default: public_synthetic
+
+prompt_placeholders:
+  - "{{document_type}}"
+  - "{{topic}}"
+  - "{{modality}}"
+  - "{{source}}"
+  - "{{page}}"
+  - "{{section}}"

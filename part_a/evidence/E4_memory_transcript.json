@@ -1,0 +1,152 @@
+{
+  "turn1": {
+    "query": "What is the P95 put dwell SLA?",
+    "allowed": true,
+    "refusal_reason": null,
+    "answer": "\u007f P95 put dwell SLA is 90 seconds per induction cycle. Source: WES-PUT-000.pdf p.1.",
+    "citations": [
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-100.pdf p.1",
+      "WES-PUT-060.pdf p.1"
+    ],
+    "hits": [
+      {
+        "chunk_id": "WES-PUT-000-p1-text-0",
+        "source": "WES-PUT-000.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.6173688626940411
+      },
+      {
+        "chunk_id": "WES-PUT-100-p1-text-0",
+        "source": "WES-PUT-100.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.2920347803635049
+      },
+      {
+        "chunk_id": "WES-PUT-060-p1-text-0",
+        "source": "WES-PUT-060.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.2920347803635049
+      },
+      {
+        "chunk_id": "WES-PUT-040-p1-text-0",
+        "source": "WES-PUT-040.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.2920347803635049
+      },
+      {
+        "chunk_id": "WES-PUT-030-p1-text-0",
+        "source": "WES-PUT-030.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.28242353239479295
+      },
+      {
+        "chunk_id": "WES-PUT-090-p1-text-0",
+        "source": "WES-PUT-090.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.28242353239479295
+      },
+      {
+        "chunk_id": "WES-PUT-070-p1-text-0",
+        "source": "WES-PUT-070.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.28242353239479295
+      },
+      {
+        "chunk_id": "WES-PUT-010-p1-text-0",
+        "source": "WES-PUT-010.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.28242353239479295
+      }
+    ],
+    "prompt_variant": "jinja2",
+    "latency_sec": 0.002608499984489754,
+    "guardrail_overhead_sec": 3.9300008211284876e-05,
+    "input_tokens": 201,
+    "output_tokens": 14,
+    "backend": "mock"
+  },
+  "turn2": {
+    "query": "What about the light colors used on the wall?",
+    "allowed": true,
+    "refusal_reason": null,
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "citations": [
+      "WES-PUT-050.pdf p.1",
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-020.pdf p.1"
+    ],
+    "hits": [
+      {
+        "chunk_id": "WES-PUT-000-p1-text-0",
+        "source": "WES-PUT-000.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.3994629088552699
+      },
+      {
+        "chunk_id": "WES-PUT-020-p1-table-0",
+        "source": "WES-PUT-020.pdf",
+        "page": 1,
+        "modality": "table",
+        "score": 0.31467906244727495
+      },
+      {
+        "chunk_id": "WES-PUT-080-p1-table-0",
+        "source": "WES-PUT-080.pdf",
+        "page": 1,
+        "modality": "table",
+        "score": 0.3145655564750583
+      },
+      {
+        "chunk_id": "WES-PUT-050-p1-table-0",
+        "source": "WES-PUT-050.pdf",
+        "page": 1,
+        "modality": "table",
+        "score": 0.3034614742493491
+      },
+      {
+        "chunk_id": "WES-PUT-100-p1-text-0",
+        "source": "WES-PUT-100.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.22458501427992136
+      },
+      {
+        "chunk_id": "WES-PUT-040-p1-text-0",
+        "source": "WES-PUT-040.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.22458501427992136
+      },
+      {
+        "chunk_id": "WES-PUT-060-p1-text-0",
+        "source": "WES-PUT-060.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.22458501427992136
+      },
+      {
+        "chunk_id": "WES-PUT-000-p1-text-0",
+        "source": "WES-PUT-000.pdf",
+        "page": 1,
+        "modality": "text",
+        "score": 0.2178286716223028
+      }
+    ],
+    "prompt_variant": "jinja2",
+    "latency_sec": 0.003095199994277209,
+    "guardrail_overhead_sec": 2.1899992134422064e-05,
+    "input_tokens": 570,
+    "output_tokens": 14,
+    "backend": "mock"
+  }
+}

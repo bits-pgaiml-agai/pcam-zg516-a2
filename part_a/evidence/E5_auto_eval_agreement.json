@@ -1,0 +1,6 @@
+{
+  "method": "citation_and_overlap_proxy_judge",
+  "agreement_with_golden_flags": 0.625,
+  "n": 32,
+  "limits": "Proxy judge correlates with citation presence; not a calibrated LLM judge."
+}

@@ -1,0 +1,17 @@
+{
+  "config_a": {
+    "size": 300,
+    "overlap": 40,
+    "n_chunks": 1037
+  },
+  "config_b": {
+    "size": 600,
+    "overlap": 80,
+    "n_chunks": 994
+  },
+  "preferred": {
+    "size": 450,
+    "overlap": 60,
+    "n_chunks": 1027
+  }
+}

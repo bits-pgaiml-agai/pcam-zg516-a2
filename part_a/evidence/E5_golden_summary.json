@@ -1,0 +1,48 @@
+{
+  "n": 32,
+  "recall_at_5": 0.9375,
+  "mrr": 0.9140625,
+  "correctness": 0.625,
+  "faithfulness": 1.0,
+  "latency_p50": 0.00286100001540035,
+  "latency_p95": 0.00408479999168776,
+  "consistency": [
+    {
+      "id": "G01",
+      "identical_answers": true,
+      "identical_retrieval": true,
+      "answer_share": 1.0,
+      "retrieval_share": 1.0
+    },
+    {
+      "id": "G02",
+      "identical_answers": true,
+      "identical_retrieval": true,
+      "answer_share": 1.0,
+      "retrieval_share": 1.0
+    },
+    {
+      "id": "G03",
+      "identical_answers": true,
+      "identical_retrieval": true,
+      "answer_share": 1.0,
+      "retrieval_share": 1.0
+    },
+    {
+      "id": "G04",
+      "identical_answers": true,
+      "identical_retrieval": true,
+      "answer_share": 1.0,
+      "retrieval_share": 1.0
+    },
+    {
+      "id": "G05",
+      "identical_answers": true,
+      "identical_retrieval": true,
+      "answer_share": 1.0,
+      "retrieval_share": 1.0
+    }
+  ],
+  "consistency_answer_rate": 1.0,
+  "consistency_retrieval_rate": 1.0
+}

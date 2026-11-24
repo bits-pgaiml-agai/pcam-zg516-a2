@@ -1,0 +1,642 @@
+[
+  {
+    "id": "G01",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f P95 put dwell SLA is 90 seconds per induction cycle. Source: WES-PUT-000.pdf p.1.",
+    "citations": [
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-040.pdf p.1",
+      "WES-PUT-100.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.002945000014733523,
+    "input_tokens": 204,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.8199981898069382e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G02",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Document 100: Put-wall lane capacity for wall-1 is 16 cubbies. Source: WES-PUT-100.pdf p.1.",
+    "citations": [
+      "WES-PUT-100.pdf p.1",
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-060.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0022060999763198197,
+    "input_tokens": 215,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.549999044276774e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G03",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "citations": [
+      "WES-PUT-050.pdf p.1",
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-020.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.00408479999168776,
+    "input_tokens": 538,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.3499975213781e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G04",
+    "modality": "table",
+    "allowed": true,
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "citations": [
+      "WES-PUT-050.pdf p.1",
+      "WES-PUT-020.pdf p.1",
+      "WES-PUT-080.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 0.25,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.003586400009226054,
+    "input_tokens": 561,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 5.689996760338545e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G05",
+    "modality": "image",
+    "allowed": true,
+    "answer": "Diagram callout: step 1 must complete before downstream release. Source: WES-ASN-032.pdf p.2.",
+    "citations": [
+      "WES-ASN-032.pdf p.2",
+      "WES-SAF-108.pdf p.2",
+      "WES-ASN-072.pdf p.2"
+    ],
+    "recall_at_5": 0.0,
+    "mrr": 0.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0024187999952118844,
+    "input_tokens": 194,
+    "output_tokens": 12,
+    "guardrail_overhead_sec": 3.200001083314419e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G06",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Blind receiving is blocked when ASN lines exceed 200 without dock appointment. Source: WES-ASN-002.pdf p.1.",
+    "citations": [
+      "WES-ASN-002.pdf p.1",
+      "WES-PIC-001.pdf p.1",
+      "WES-PIC-011.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.125,
+    "latency_sec": 0.0028031999827362597,
+    "input_tokens": 646,
+    "output_tokens": 16,
+    "guardrail_overhead_sec": 2.149995998479426e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G07",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Pickers must scan location then SKU then quantity for each pick line. Source: WES-PIC-001.pdf p.1.",
+    "citations": [
+      "WES-PIC-001.pdf p.1",
+      "WES-PIC-011.pdf p.1",
+      "WES-PIC-041.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0030041999998502433,
+    "input_tokens": 592,
+    "output_tokens": 16,
+    "guardrail_overhead_sec": 1.6400008462369442e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G08",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Blind receiving is blocked when ASN lines exceed 200 without dock appointment. Source: WES-ASN-002.pdf p.1.",
+    "citations": [
+      "WES-ASN-002.pdf p.1",
+      "WES-ASN-012.pdf p.1",
+      "WES-ASN-052.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0020292999979574233,
+    "input_tokens": 323,
+    "output_tokens": 16,
+    "guardrail_overhead_sec": 2.2599997464567423e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G09",
+    "modality": "text",
+    "allowed": true,
+    "answer": "n fails, open the matching exception code and hold the unit. Do not bypass confirmation for document index 65. Source: WES-EXC-065.pdf p.1.",
+    "citations": [
+      "WES-EXC-065.pdf p.1",
+      "WES-ASN-002.pdf p.1",
+      "WES-SHI-017.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.002735899994149804,
+    "input_tokens": 639,
+    "output_tokens": 22,
+    "guardrail_overhead_sec": 1.6600009985268116e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G10",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f P95 put dwell SLA is 90 seconds per induction cycle. Source: WES-PUT-000.pdf p.1.",
+    "citations": [
+      "WES-PUT-000.pdf p.1",
+      "WES-WAV-003.pdf p.1",
+      "WES-WAV-083.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.0027764999831561,
+    "input_tokens": 509,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.370000584051013e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G11",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Wave release is gated on inventory reservation success rate >= 98%. Source: WES-WAV-003.pdf p.1.",
+    "citations": [
+      "WES-WAV-003.pdf p.1",
+      "WES-WAV-093.pdf p.1",
+      "WES-WAV-103.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.002153199980966747,
+    "input_tokens": 203,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.1199986804276705e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G12",
+    "modality": "table",
+    "allowed": true,
+    "answer": "\u007f Reservation gate percentage for wave doc 53 is local. Source: WES-WAV-053.pdf p.1.",
+    "citations": [
+      "WES-WAV-053.pdf p.1",
+      "WES-WAV-003.pdf p.1",
+      "WES-WAV-083.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.0029384999943431467,
+    "input_tokens": 488,
+    "output_tokens": 13,
+    "guardrail_overhead_sec": 2.61999957729131e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G13",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Variance above 2% triggers recount before adjustment posting. Source: WES-INV-004.pdf p.1.",
+    "citations": [
+      "WES-INV-004.pdf p.1",
+      "WES-INV-014.pdf p.1",
+      "WES-INV-044.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.00286100001540035,
+    "input_tokens": 575,
+    "output_tokens": 12,
+    "guardrail_overhead_sec": 2.8499984182417393e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G14",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Blind receiving is blocked when ASN lines exceed 200 without dock appointment. Source: WES-ASN-002.pdf p.1.",
+    "citations": [
+      "WES-ASN-002.pdf p.1",
+      "WES-INV-004.pdf p.1",
+      "WES-PUT-070.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.0029593000072054565,
+    "input_tokens": 451,
+    "output_tokens": 16,
+    "guardrail_overhead_sec": 2.4999986635521054e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G15",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f System downtime playbook freezes new wave releases after 3 minutes outage. Source: WES-EXC-005.pdf p.1.",
+    "citations": [
+      "WES-EXC-005.pdf p.1",
+      "WES-EXC-055.pdf p.1",
+      "WES-EXC-015.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.125,
+    "latency_sec": 0.0025184999976772815,
+    "input_tokens": 273,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.4999986635521054e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G16",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f System downtime playbook freezes new wave releases after 3 minutes outage. Source: WES-EXC-005.pdf p.1.",
+    "citations": [
+      "WES-EXC-005.pdf p.1",
+      "WES-EXC-055.pdf p.1",
+      "WES-EXC-015.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0025004999770317227,
+    "input_tokens": 269,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.6600027922540903e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G17",
+    "modality": "text",
+    "allowed": true,
+    "answer": "Procedure Operators follow the Packing Stations \u2014 PLAYBOOK #056 procedure. Source: WES-PAC-056.pdf p.1.",
+    "citations": [
+      "WES-PAC-056.pdf p.1",
+      "WES-PAC-006.pdf p.1",
+      "WES-PAC-026.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.002742000011494383,
+    "input_tokens": 507,
+    "output_tokens": 13,
+    "guardrail_overhead_sec": 2.300000051036477e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G18",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Blind receiving is blocked when ASN lines exceed 200 without dock appointment. Source: WES-ASN-002.pdf p.1.",
+    "citations": [
+      "WES-ASN-002.pdf p.1",
+      "WES-PAC-006.pdf p.1",
+      "WES-WAV-043.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.25,
+    "latency_sec": 0.003074200008995831,
+    "input_tokens": 300,
+    "output_tokens": 16,
+    "guardrail_overhead_sec": 2.1799991372972727e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G19",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f PPE required in put-wall and packing zones includes safety shoes. Source: WES-SAF-008.pdf p.1.",
+    "citations": [
+      "WES-SAF-008.pdf p.1",
+      "WES-SHI-007.pdf p.1",
+      "WES-SHI-077.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.003356000001076609,
+    "input_tokens": 661,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.4699984351173043e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G20",
+    "modality": "text",
+    "allowed": true,
+    "answer": "Procedure Operators follow the Shipping & Carrier Handoff \u2014 CHECKLIST #077 procedure. Source: WES-SHI-077.pdf p.1.",
+    "citations": [
+      "WES-SHI-077.pdf p.1",
+      "WES-SHI-007.pdf p.1",
+      "WES-SHI-047.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.004316400008974597,
+    "input_tokens": 595,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.7699978090822697e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G21",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Pedestrian lanes are marked yellow; powered equipment yields at crossings. Source: WES-SAF-008.pdf p.1.",
+    "citations": [
+      "WES-SAF-008.pdf p.1",
+      "WES-SAF-058.pdf p.1",
+      "WES-SAF-018.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.004359599988674745,
+    "input_tokens": 274,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 3.810002817772329e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G22",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f PPE required in put-wall and packing zones includes safety shoes. Source: WES-SAF-008.pdf p.1.",
+    "citations": [
+      "WES-SAF-008.pdf p.1",
+      "WES-ASN-022.pdf p.1",
+      "WES-SYS-019.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.0037660999805666506,
+    "input_tokens": 276,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 3.6100042052567005e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G23",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Document 103: Wave W-4 priority score uses order age, SLA and cube utilization. Source: WES-WAV-103.pdf p.1.",
+    "citations": [
+      "WES-WAV-103.pdf p.1",
+      "WES-SYS-009.pdf p.1",
+      "WES-WAV-003.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.14285714285714285,
+    "latency_sec": 0.0023570999910589308,
+    "input_tokens": 238,
+    "output_tokens": 17,
+    "guardrail_overhead_sec": 3.709999145939946e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G24",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Simulation mode uses synthetic LPNs prefixed TXN-DEMO-. Source: WES-SYS-009.pdf p.1.",
+    "citations": [
+      "WES-SYS-009.pdf p.1",
+      "WES-SYS-099.pdf p.1",
+      "WES-SYS-049.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0017814000020734966,
+    "input_tokens": 151,
+    "output_tokens": 11,
+    "guardrail_overhead_sec": 1.4900026144459844e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G25",
+    "modality": "image",
+    "allowed": true,
+    "answer": "Diagram callout: step 1 must complete before downstream release. Source: WES-ASN-012.pdf p.2.",
+    "citations": [
+      "WES-ASN-012.pdf p.2",
+      "WES-PAC-056.pdf p.2",
+      "WES-PAC-036.pdf p.2"
+    ],
+    "recall_at_5": 0.0,
+    "mrr": 0.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.00265210002544336,
+    "input_tokens": 194,
+    "output_tokens": 12,
+    "guardrail_overhead_sec": 2.1100015146657825e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G26",
+    "modality": "table",
+    "allowed": true,
+    "answer": "\u007f Document 4: Cycle count ABC class A locations every 11 days. Source: WES-INV-004.pdf p.1.",
+    "citations": [
+      "WES-INV-004.pdf p.1",
+      "WES-INV-014.pdf p.1",
+      "WES-INV-044.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.0033740999933797866,
+    "input_tokens": 585,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.1999963792040944e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G27",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Put confirmation policy for wall-11 follows local SOP variant 50. Source: WES-PUT-050.pdf p.1.",
+    "citations": [
+      "WES-PUT-050.pdf p.1",
+      "WES-PUT-000.pdf p.1",
+      "WES-PUT-020.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.0030672000139020383,
+    "input_tokens": 547,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 4.500002251006663e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G28",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Single-line orders may bypass wave and go direct-to-pack. Source: WES-WAV-003.pdf p.1.",
+    "citations": [
+      "WES-WAV-003.pdf p.1",
+      "WES-WAV-083.pdf p.1",
+      "WES-WAV-053.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0025301999994553626,
+    "input_tokens": 503,
+    "output_tokens": 12,
+    "guardrail_overhead_sec": 1.7699989257380366e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G29",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f PPE required in put-wall and packing zones includes safety shoes. Source: WES-SAF-008.pdf p.1.",
+    "citations": [
+      "WES-SAF-008.pdf p.1",
+      "WES-PUT-020.pdf p.1",
+      "WES-PUT-080.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.0035362000053282827,
+    "input_tokens": 652,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 1.6399979358538985e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G30",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Light codes for wall-11 are published on the station placard. Source: WES-PUT-090.pdf p.1.",
+    "citations": [
+      "WES-PUT-090.pdf p.1",
+      "WES-SYS-009.pdf p.1",
+      "WES-PUT-100.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.55,
+    "latency_sec": 0.0023714999842923135,
+    "input_tokens": 215,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.3500033421441913e-05,
+    "correct": true,
+    "faithful": true
+  },
+  {
+    "id": "G31",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f System downtime playbook freezes new wave releases after 3 minutes outage. Source: WES-EXC-005.pdf p.1.",
+    "citations": [
+      "WES-EXC-005.pdf p.1",
+      "WES-EXC-055.pdf p.1",
+      "WES-EXC-015.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 0.0,
+    "latency_sec": 0.0032648000051267445,
+    "input_tokens": 266,
+    "output_tokens": 15,
+    "guardrail_overhead_sec": 2.409997978247702e-05,
+    "correct": false,
+    "faithful": true
+  },
+  {
+    "id": "G32",
+    "modality": "text",
+    "allowed": true,
+    "answer": "\u007f Hot-pick SKUs are staged in forward pick faces near packing. Source: WES-PIC-001.pdf p.1.",
+    "citations": [
+      "WES-PIC-001.pdf p.1",
+      "WES-PIC-061.pdf p.1",
+      "WES-PIC-081.pdf p.1"
+    ],
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "answer_overlap": 1.0,
+    "latency_sec": 0.00255869998363778,
+    "input_tokens": 239,
+    "output_tokens": 14,
+    "guardrail_overhead_sec": 2.509998739697039e-05,
+    "correct": true,
+    "faithful": true
+  }
+]

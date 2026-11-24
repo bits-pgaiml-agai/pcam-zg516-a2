@@ -45,8 +45,9 @@ vector_store/
 ~$*
 *.tmp
 
-# Large corpus binaries stay local / external; track inventory only
+# Optional large real corpora (synthetic PDFs under corpus_synthetic/ are tracked)
 part_a/data/corpus_raw/
 part_a/data/corpus_processed/
+part_a/data/index/
 *.pptx
 *.ppt

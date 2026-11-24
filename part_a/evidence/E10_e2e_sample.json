@@ -1,0 +1,75 @@
+{
+  "query": "What exception code is used for damaged cartons?",
+  "allowed": true,
+  "refusal_reason": null,
+  "answer": "fails, open the matching exception code and hold the unit. Do not bypass confirmation for document index 107. Source: WES-SHI-107.pdf p.1.",
+  "citations": [
+    "WES-SHI-107.pdf p.1",
+    "WES-ASN-002.pdf p.1",
+    "WES-SHI-017.pdf p.1"
+  ],
+  "hits": [
+    {
+      "chunk_id": "WES-ASN-002-p1-table-0",
+      "source": "WES-ASN-002.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.3289194274446585
+    },
+    {
+      "chunk_id": "WES-SHI-017-p1-table-1",
+      "source": "WES-SHI-017.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.22554973052585842
+    },
+    {
+      "chunk_id": "WES-SHI-047-p1-table-1",
+      "source": "WES-SHI-047.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.22482733650283332
+    },
+    {
+      "chunk_id": "WES-SHI-077-p1-table-1",
+      "source": "WES-SHI-077.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.22377665816027653
+    },
+    {
+      "chunk_id": "WES-EXC-065-p1-table-1",
+      "source": "WES-EXC-065.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.22290662564016245
+    },
+    {
+      "chunk_id": "WES-EXC-035-p1-table-1",
+      "source": "WES-EXC-035.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.2224996908296958
+    },
+    {
+      "chunk_id": "WES-SHI-107-p1-table-1",
+      "source": "WES-SHI-107.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.222199616647624
+    },
+    {
+      "chunk_id": "WES-EXC-095-p1-table-1",
+      "source": "WES-EXC-095.pdf",
+      "page": 1,
+      "modality": "table",
+      "score": 0.222199616647624
+    }
+  ],
+  "prompt_variant": "jinja2",
+  "latency_sec": 0.003793400013819337,
+  "guardrail_overhead_sec": 3.6200013710185885e-05,
+  "input_tokens": 401,
+  "output_tokens": 21,
+  "backend": "mock"
+}

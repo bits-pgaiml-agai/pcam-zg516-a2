@@ -1,0 +1,44 @@
+{
+  "ablation": [
+    {
+      "variant": "zero_shot",
+      "quality": 0.55625,
+      "avg_input_tokens": 418,
+      "avg_output_tokens": 15,
+      "latency_p50": 0.004001000022981316,
+      "latency_p95": 0.004803599993465468
+    },
+    {
+      "variant": "f_string",
+      "quality": 0.55625,
+      "avg_input_tokens": 415,
+      "avg_output_tokens": 15,
+      "latency_p50": 0.002644799998961389,
+      "latency_p95": 0.003099800000200048
+    },
+    {
+      "variant": "three_shot",
+      "quality": 0.48333333333333334,
+      "avg_input_tokens": 474,
+      "avg_output_tokens": 14.833333333333334,
+      "latency_p50": 0.0032669000211171806,
+      "latency_p95": 0.004554999992251396
+    },
+    {
+      "variant": "jinja2",
+      "quality": 0.55625,
+      "avg_input_tokens": 426,
+      "avg_output_tokens": 15,
+      "latency_p50": 0.003871299995807931,
+      "latency_p95": 0.0049894000112544745
+    },
+    {
+      "variant": "react",
+      "quality": 0.55625,
+      "avg_input_tokens": 430,
+      "avg_output_tokens": 15,
+      "latency_p50": 0.004424299986567348,
+      "latency_p95": 0.004804099997272715
+    }
+  ]
+}

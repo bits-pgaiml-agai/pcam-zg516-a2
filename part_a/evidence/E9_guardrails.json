@@ -1,0 +1,7 @@
+{
+  "avg_guardrail_overhead_sec": 2.3759994655847548e-05,
+  "budget_sec": 6.0,
+  "within_budget": true,
+  "injection_block": "prompt_injection",
+  "oos_block": "out_of_scope"
+}

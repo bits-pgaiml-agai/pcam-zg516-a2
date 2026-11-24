@@ -1,0 +1,23 @@
+{
+  "history": [
+    {
+      "iteration": 1,
+      "prompt_prefix": "Answer only from evidence with citations.",
+      "score": 0.625,
+      "change": "baseline"
+    },
+    {
+      "iteration": 2,
+      "prompt_prefix": "Answer only from evidence with citations. Add explicit instruction to refuse when evidence is missing.",
+      "score": 0.625,
+      "change": "Add explicit instruction to refuse when evidence is missing."
+    },
+    {
+      "iteration": 3,
+      "prompt_prefix": "Answer only from evidence with citations. Add explicit instruction to refuse when evidence is missing. Require filename and page citation on every sentence with a fact.",
+      "score": 0.625,
+      "change": "Require filename and page citation on every sentence with a fact."
+    }
+  ],
+  "heldout_quality": 0.528125
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "Warehouse Execution System (WES) \u2014 synthetic operations handbook",
+  "target_user": "Warehouse operations analyst / floor supervisor",
+  "scenario": "Answer operational questions from WES SOPs, put-wall guides, ASN flows, exception playbooks and diagram callouts \u2014 with citations \u2014 without fine-tuning.",
+  "n_documents": 110,
+  "n_pages": 138,
+  "n_tables": 74,
+  "n_images": 28,
+  "sensitivity": "public_synthetic"
+}
